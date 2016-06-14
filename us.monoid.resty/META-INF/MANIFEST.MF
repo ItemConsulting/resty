@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: A simple HTTP REST client for Java
+Bundle-SymbolicName: us.monoid.resty
+Bundle-Version: 0.3.3
+Bundle-Activator: us.monoid.resty.Activator
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: us.monoid.json,
+ us.monoid.resty,
+ us.monoid.util,
+ us.monoid.web,
+ us.monoid.web.auth,
+ us.monoid.web.jp.javacc,
+ us.monoid.web.mime,
+ us.monoid.web.ssl
+Bundle-ClassPath: libs/resty-0.3.2.jar,
+ .
