@@ -5,7 +5,7 @@ Resty
 Introduction
 --------------
 
-Resty is a small, convenient interface to talk to RESTful services from Java. This is a OSGI Plugin distribution to use with IBM Domino
+Resty is a small, convenient interface to talk to RESTful services from Java. This is a OSGI Plugin distribution to use on IBM Domino.
 
 Its focus is on simplicity and ease-of-use, often requiring only two lines of code to access any web service.
 It supports chaining several requests which is very useful in RESTful application employing HATEOAS.
